@@ -1,0 +1,45 @@
+.header__cabinet {
+  display: flex;
+  align-items: center;
+}
+
+.cabinet__signIn {
+  border: var(--border);
+  border-radius: 2px;
+  width: 80px;
+  height: 40px;
+  background: none;
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cabinet__signIn:hover {
+  background: var(--btn-hover);
+  transition: 0.5s;
+}
+
+.cabinet__register {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  margin-left: 12px;
+  margin-right: 27px;
+  cursor: pointer;
+  outline: none;
+}
+
+.basket__image {
+  cursor: pointer;
+}

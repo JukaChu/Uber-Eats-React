@@ -1,0 +1,13 @@
+html {
+  --main-font: roboto, sans-serif;
+  --main-font-color: #1d1d1d;
+  --second-font-color: #626262;
+  --border-color: #e0e0e0;
+  --white: #fff;
+  --black: #262626;
+  --border: 1px solid var(--border-color);
+  --btn-hover: rgb(245, 245, 245);
+  --hover-card-color: rgba(117, 117, 117, 0.04);
+  --active-color: #327430;
+  --brand-color: #57ad56;
+}

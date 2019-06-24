@@ -1,0 +1,16 @@
+header {
+  height: 72px;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: var(--white);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}

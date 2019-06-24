@@ -1,0 +1,56 @@
+.location__time {
+  width: 65px;
+  height: 40px;
+  border: var(--border);
+  border-radius: 2px;
+  background: none;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-font-color);
+  outline: none;
+}
+
+.location__to {
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.location__place {
+  position: relative;
+}
+
+.location__place-input {
+  width: 292px;
+  height: 40px;
+  border: var(--border);
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding-left: 36px;
+  outline: none;
+}
+
+.location__place-input:focus {
+  border-color: var(--black);
+  box-sizing: border-box;
+}
+
+.location__place:before {
+  position: absolute;
+  content: url("../../img/location.svg");
+  left: 12px;
+  top: 0;
+}
+
+.location__place-input::placeholder {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}

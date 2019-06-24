@@ -1,0 +1,67 @@
+.restaurants-list__restaurant-card {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.restaurant-card {
+  width: 308px;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.restaurant-card-link:hover {
+  background-color: var(--hover-card-color);
+}
+
+.restaurant-card__photo {
+  width: 100%;
+  height: 256px;
+  position: relative;
+  top: 0;
+  transition: top 0.4s ease-out;
+
+}
+
+.restaurant-card-link:hover .restaurant-card__photo {
+  top: -10px;
+
+}
+
+.restaurant-card-link {
+  text-decoration: none;
+  height: 100%;
+}
+
+.restaurant-card__name {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.restaurant-card__price {
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.restaurant-card__delivery-time {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}

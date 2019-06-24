@@ -1,0 +1,29 @@
+.search-panel__label {
+  width: 100%;
+  height: 54px;
+}
+
+.search-panel__label::before {
+  content: url("../../img/zoom-glass.svg");
+  position: absolute;
+  top: 114px;
+}
+
+.search-panel__input {
+  width: 962px;
+  height: 54px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  padding-left: 30px;
+  outline: none;
+}
+
+.search-panel__input::placeholder {
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.5;
+}
