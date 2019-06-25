@@ -14,3 +14,9 @@ header {
   align-items: center;
   height: 72px;
 }
+
+.header-wrapper {
+  max-width: 962px;
+  margin: 0 auto;
+  height: 72px;
+}

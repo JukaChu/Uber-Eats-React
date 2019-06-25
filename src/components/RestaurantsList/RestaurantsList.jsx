@@ -1,9 +1,10 @@
 import React from 'react';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {BrowserRouter as Link} from 'react-router-dom';
 import {SearchPanel} from "../search-panel/search-panel";
-import {RestaurantCard} from "../restaurant-card/Restaurant-card";
+import {RestaurantCard} from "../RestaurantCard/RestaurantCard";
+import './RestaurantsList.css';
 import img from './rest-img.png'
-export function RestaurantList() {
+export function RestaurantsList() {
     const restaurants = [
         {
             name: 'McDonalds',
@@ -28,7 +29,7 @@ export function RestaurantList() {
 
     return (
         <div className="restaurants-list">
-            <div className="wrapper-main">
+            <div className="restaurants-list-wrapper">
                 <SearchPanel/>
                 <p className="restaurants-list__title">Kyiv restaurants</p>
                 <Link to='/restaurant'>
