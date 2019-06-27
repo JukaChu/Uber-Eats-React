@@ -1,0 +1,21 @@
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 962px;
+    min-height: 116px;
+}
+
+
+
+footer {
+    min-height: 116px;
+    background: var(--black);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 116px;
+    max-width: 962px;
+    bottom: 0;
+}
