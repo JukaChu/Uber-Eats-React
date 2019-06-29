@@ -1,0 +1,30 @@
+.restaurant-menu {
+    border-bottom: var(--border);
+    border-top: var(--border);
+    position: sticky;
+    top: 72px;
+    box-shadow: 0 16px 8px rgba(38, 38, 38, 0.1);
+    background: var(--white);
+    z-index: 9;
+}
+
+.restaurant-menu__wrapper {
+    max-width: 962px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.restaurant-menu__type {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.restaurant-menu__type {
+    display: flex;
+    align-items: baseline;
+}

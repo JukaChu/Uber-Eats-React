@@ -1,23 +1,8 @@
-.restaurants-list-wrapper {
-    max-width: 962px;
-    margin: 0 auto;
-    min-height: 1696px;
-}
+
 
 .restaurants-list {
-    padding-top: 100px;
+    margin-top: 16px;
     display: flex;
-    flex-direction: column;
-    /*min-height: 1696px;*/
-    flex-grow: 1;
-}
-
-.restaurants-list__title {
-    font-family: var(--main-font);
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 34px;
-    color: var(--main-font-color);
-    padding-top: 56px;
-    margin: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

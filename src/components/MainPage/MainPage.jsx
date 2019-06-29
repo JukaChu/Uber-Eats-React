@@ -1,7 +1,18 @@
 import React from 'react';
-import './main.css';
+import './MainPage.css';
 import {RestaurantsList} from "../RestaurantsList/RestaurantsList";
+import {SearchPanel} from "../SearchPanel/SearchPanel";
 
 export function MainPage() {
-    return <RestaurantsList/>
+    return (
+        <>
+            <main className="main-page">
+                <div className="main-page-wrapper">
+                    <SearchPanel/>
+                    <p className="main-page__title">Kyiv restaurants</p>
+                    <RestaurantsList/>
+                </div>
+            </main>
+        </>
+    )
 }

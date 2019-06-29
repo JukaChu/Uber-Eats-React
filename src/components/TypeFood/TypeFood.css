@@ -1,0 +1,51 @@
+
+
+
+
+
+.type_food {
+    font-family: var(--main-font);
+    color: var(--second-font-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    text-align: center;
+    height: 80px;
+    padding-right: 25px;
+    box-sizing: content-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+/*.type_food::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 2px;*/
+/*    background-color: var(--brand-color);*/
+/*    transform-origin: center;*/
+/*    transform: translate(-50%, 0) scaleX(0);*/
+/*    transition: transform 0.3s ease-in-out;*/
+/*}*/
+
+/*.type_food:hover::before {*/
+/*    transform: translate(-50%, 0) scaleX(1);*/
+/*}*/
+
+.type_food:hover {
+    color: var(--brand-color);
+}
+
+.type_food--active {
+    font-family: var(--main-font);
+    color: var(--brand-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}

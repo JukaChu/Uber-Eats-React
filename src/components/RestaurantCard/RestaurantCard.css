@@ -1,9 +1,4 @@
-.restaurants-list__restaurant-card {
-  margin-top: 16px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
 
 .restaurant-card {
   width: 308px;
