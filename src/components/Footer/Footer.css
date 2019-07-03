@@ -11,7 +11,7 @@
     background: var(--black);
 }
 
-.footer_fixed {
+.footer__fixed {
     display: flex;
     justify-content: flex-start;
     align-items: center;
