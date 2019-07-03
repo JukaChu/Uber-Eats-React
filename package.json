@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "active-menu-link": "^1.1.6",
     "create-react-app": "^3.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "simple-scrollspy": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

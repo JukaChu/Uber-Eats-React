@@ -2,6 +2,7 @@ import React from 'react';
 import './RestaurantTeaser.css';
 import {data} from '../data/data';
 import {Information} from "../Information/Information";
+import '../Information/Information.css';
 
 
 export function RestaurantTeaser() {

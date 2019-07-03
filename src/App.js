@@ -11,14 +11,22 @@ import './components/MenuType/MenuType.css';
 import {MenuType} from "./components/MenuType/MenuType";
 import './index.css';
 
+// const ScrollToTop = ({ children, location: { pathname } }) => {
+//     useEffect(() => {
+//         window.scrollTo(0, 0);
+//     }, [pathname]);
+//
+//     return children || null;
+// };
+
 function RestaurantPage() {
     return (
         <>
-            <div className="mmp">
+            <main>
             <RestaurantTeaser/>
             <RestaurantMenu/>
             <MenuType/>
-            </div>
+            </main>
         </>
     )
 }
