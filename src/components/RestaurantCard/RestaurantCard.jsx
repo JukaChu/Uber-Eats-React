@@ -5,7 +5,7 @@ import './RestaurantCard.css';
 export function RestaurantCard(props) {
     return (
         <div className="restaurant-card">
-            <Link to="/restaurant" className="restaurant-card-link">
+            <Link to="/restaurant" className="restaurant-card__link">
                 <img src={props.url} className="restaurant-card__photo" alt=""/>
                 <div className="restaurant-card__preview">
                     <p className="restaurant-card__name">{props.name}</p>

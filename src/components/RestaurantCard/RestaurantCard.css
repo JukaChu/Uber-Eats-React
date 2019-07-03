@@ -8,7 +8,7 @@
   margin-bottom: 16px;
 }
 
-.restaurant-card-link:hover {
+.restaurant-card__link:hover {
   background-color: var(--hover-card-color);
 }
 
@@ -21,12 +21,12 @@
 
 }
 
-.restaurant-card-link:hover .restaurant-card__photo {
+.restaurant-card__link:hover .restaurant-card__photo {
   top: -10px;
 
 }
 
-.restaurant-card-link {
+.restaurant-card__link {
   text-decoration: none;
   height: 100%;
 }
