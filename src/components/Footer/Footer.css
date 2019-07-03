@@ -1,4 +1,4 @@
-.footer-wrapper {
+.footer__wrapper {
     margin: 0 auto;
     max-width: 962px;
     min-height: 116px;
@@ -6,12 +6,12 @@
 
 
 
-footer {
+.footer {
     min-height: 116px;
     background: var(--black);
 }
 
-.footer {
+.footer_fixed {
     display: flex;
     justify-content: flex-start;
     align-items: center;

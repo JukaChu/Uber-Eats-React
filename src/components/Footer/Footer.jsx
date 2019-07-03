@@ -5,9 +5,9 @@ import './Footer.css';
 export function Footer() {
 
     return (
-        <footer>
-            <div className="footer-wrapper">
-                <div className="footer">
+        <footer className="footer">
+            <div className="footer__wrapper">
+                <div className="footer__fixed">
                     <a href="javascript:void(0)">
                         <img src={logo} alt=""/>
                     </a>
