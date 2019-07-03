@@ -7,7 +7,7 @@ export function MainPage() {
     return (
         <>
             <main className="main-page">
-                <div className="main-page-wrapper">
+                <div className="main-page__wrapper">
                     <SearchPanel/>
                     <p className="main-page__title">Kyiv restaurants</p>
                     <RestaurantsList/>

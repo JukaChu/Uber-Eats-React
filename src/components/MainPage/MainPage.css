@@ -25,7 +25,7 @@ body {
   flex-grow: 1;
 }
 
-.main-page-wrapper {
+.main-page__wrapper {
   max-width: 962px;
   margin: 0 auto;
   min-height: 1696px;
