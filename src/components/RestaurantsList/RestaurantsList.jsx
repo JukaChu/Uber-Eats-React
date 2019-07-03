@@ -4,27 +4,6 @@ import './RestaurantsList.css';
 import {RestaurantsData} from "../data/RestaurantsData"
 
 export function RestaurantsList() {
-    // const restaurants = [
-    //     {
-    //         name: 'McDonalds',
-    //         price: '₴₴ • Бургеры',
-    //         deliveryTime: '25-35 Min',
-    //         url: img,
-    //     },
-    //     {
-    //         name: 'KFC',
-    //         price: '₴₴ • Курочка',
-    //         deliveryTime: '5-15 Min',
-    //         url: img,
-    //     },
-    //     {
-    //         name: 'Fashion Shaurma',
-    //         price: '₴₴ • Шаурма',
-    //         deliveryTime: '15-25 Min',
-    //         url: img,
-    //     },
-    //
-    // ];
 
     return (
         <div className="restaurants-list">
