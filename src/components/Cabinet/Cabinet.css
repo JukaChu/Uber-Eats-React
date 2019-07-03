@@ -1,4 +1,4 @@
-.header__cabinet {
+.cabinet {
   display: flex;
   align-items: center;
 }
@@ -40,6 +40,6 @@
   outline: none;
 }
 
-.basket__image {
+.cabinet__basket-image {
   cursor: pointer;
 }
