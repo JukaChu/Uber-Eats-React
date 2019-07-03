@@ -1,44 +1,42 @@
-
 .restaurant-teaser {
-    height: 364px;
-    /*background: url("https://uber-eats-mates.herokuapp.com/images/48f30dc6-245f-4257-9b6f-8fc00c510fd9.jpg");*/
-    background-size: cover;
-    margin-top: 72px;
+  height: 364px;
+  /*background: url("https://uber-eats-mates.herokuapp.com/images/48f30dc6-245f-4257-9b6f-8fc00c510fd9.jpg");*/
+  background-size: cover;
+  margin-top: 72px;
 }
 
 .restaurant-teaser__background {
-    position: absolute;
-    display: flex;
-    top: 72px;
-    height: 364px;
-    width: 100%;
-    overflow: hidden;
-    z-index: -1;
-    align-items: center;
+  position: absolute;
+  display: flex;
+  top: 72px;
+  height: 364px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  align-items: center;
 }
 
 .restaurant-teaser__background-image {
-    width: 100%;
+  width: 100%;
 }
 
 .restaurant-teaser__wrapper {
-    max-width: 962px;
-    height: 364px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  max-width: 962px;
+  height: 364px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .restaurant-teaser__information {
-    max-width: 389px;
-    height: 204px;
-    background: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 2px;
-    box-shadow: 0 0 16px var(--hover-card-color);
+  max-width: 389px;
+  height: 204px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 16px var(--hover-card-color);
 }
-

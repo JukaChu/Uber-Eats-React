@@ -1,33 +1,28 @@
-
-
-
-
-
 .type-food {
-    font-family: var(--main-font);
-    color: var(--second-font-color);
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
-    text-align: center;
-    height: 80px;
-    padding-right: 25px;
-    box-sizing: content-box;
-    position: relative;
-    display: flex;
-    align-items: center;
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  text-align: center;
+  height: 80px;
+  padding-right: 25px;
+  box-sizing: content-box;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .type-food:hover {
-    color: var(--brand-color);
+  color: var(--brand-color);
 }
 
 .type-food--active {
-    font-family: var(--main-font);
-    color: var(--brand-color);
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
+  font-family: var(--main-font);
+  color: var(--brand-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
 }

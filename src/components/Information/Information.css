@@ -1,43 +1,43 @@
 .information-delivery {
-    display: flex;
-    justify-content: space-between;
-    width: 319px;
-    margin: 0 auto;
-    align-items: center;
-    height: 32px;
-    margin-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+  width: 319px;
+  margin: 0 auto;
+  align-items: center;
+  height: 32px;
+  margin-bottom: 38px;
 }
 
 .information-restaurant-name {
-    font-family: var(--main-font);
-    color: var(--main-font-color);
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    margin-top: 38px;
-    flex-wrap: wrap;
-    margin-left: 35px;
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 38px;
+  flex-wrap: wrap;
+  margin-left: 35px;
 }
 
 .information-delivery-currency {
-    font-family: var(--main-font);
-    color: var(--second-font-color);
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .information-delivery-time {
-    font-family: var(--main-font);
-    color: var(--white);
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 15px;
-    width: 97px;
-    height: 32px;
-    background: var(--black);
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: var(--main-font);
+  color: var(--white);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  width: 97px;
+  height: 32px;
+  background: var(--black);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

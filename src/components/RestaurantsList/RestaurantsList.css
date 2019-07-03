@@ -1,8 +1,6 @@
-
-
 .restaurants-list {
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
