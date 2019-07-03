@@ -18,6 +18,7 @@
   position: relative;
   top: 0;
   transition: top 0.4s ease-out;
+  object-fit: cover;
 
 }
 
