@@ -6,12 +6,12 @@ export function Dish(props) {
     let prices = price / 100;
 
     return (
-        <div className="dishes__dish">
+        <div className="dish">
             <a href="javascript:void(0)" className="dish__basket">
                 <div className="dish__description">
-                    <p className="description__name">{title}</p>
-                    {itemDescription !== undefined ? <p className="description__additive">{itemDescription}</p> : null}
-                    <p className="description__price">${prices} ₴</p>
+                    <p className="dish__description-name">{title}</p>
+                    {itemDescription !== undefined ? <p className="dish__description-additive">{itemDescription}</p> : null}
+                    <p className="dish__description-price">${prices} ₴</p>
                 </div>
                 {imageUrl !== undefined ? <img src={imageUrl} alt="" className="dish__photo-preview"/> : null}
             </a>

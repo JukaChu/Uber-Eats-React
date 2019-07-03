@@ -1,5 +1,5 @@
 
-.dishes__dish {
+.dish {
     width: 470px;
     height: 160px;
     border: var(--border);
@@ -28,7 +28,7 @@
 
 }
 
-.description__name {
+.dish__description-name {
     font-family: var(--main-font);
     font-weight: normal;
     font-size: 16px;
@@ -38,7 +38,7 @@
     margin-bottom: 0;
 }
 
-.description__additive {
+.dish__description-additive {
     font-family: var(--main-font);
     font-weight: normal;
     font-size: 13px;
@@ -48,7 +48,7 @@
     margin-bottom: 0;
 }
 
-.description__price {
+.dish__description-price {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 15px;
