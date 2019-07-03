@@ -8,9 +8,9 @@ import {Location} from "../Location/Location";
 
 export function Header() {
     return (
-        <header id="header">
-            <div className="header-wrapper">
-                <div className="header">
+        <header id="header" className="header" >
+            <div className="header__wrapper">
+                <div className="header__fixed">
                     <a href="javascript:void(0)">
                         <img src={logo} alt=""/>
                     </a>
