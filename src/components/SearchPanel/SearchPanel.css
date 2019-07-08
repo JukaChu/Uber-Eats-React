@@ -17,6 +17,11 @@
   border-bottom: 1px solid var(--border-color);
   padding-left: 30px;
   outline: none;
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .search-panel__input::placeholder {
