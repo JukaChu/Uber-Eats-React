@@ -11,7 +11,7 @@ export function Header() {
     <header className="header">
       <Container>
         <div className="header__fixed">
-          <a href="javascript:void(0)">
+          <a href="/">
             <img src={logo} alt="" />
           </a>
           <Location />
