@@ -6,16 +6,14 @@
   margin-bottom: 16px;
 }
 
-.restaurant-card__link:hover {
-  background-color: var(--hover-card-color);
-}
+
 
 .restaurant-card__photo {
   width: 100%;
   height: 256px;
   position: relative;
   top: 0;
-  transition: top 0.4s ease-out;
+  transition: top 0.2s ease-out;
   object-fit: cover;
 }
 
