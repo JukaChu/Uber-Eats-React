@@ -1,6 +1,6 @@
 import React from "react";
 import basket from "../../img/basket.svg";
-// import './cabinet.css';
+import './Cabinet.css';
 
 export function Cabinet() {
   return (
