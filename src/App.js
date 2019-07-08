@@ -12,13 +12,11 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function RestaurantPage() {
   return (
-    <>
       <main>
         <RestaurantTeaser />
         <RestaurantMenu />
         <MenuType />
       </main>
-    </>
   );
 }
 
