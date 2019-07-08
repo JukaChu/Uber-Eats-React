@@ -8,6 +8,7 @@ import { RestaurantTeaser } from "./components/RestaurantTeaser/RestaurantTeaser
 import { RestaurantMenu } from "./components/RestaurantMenu/RestaurantMenu";
 import "./components/MenuType/MenuType.css";
 import { MenuType } from "./components/MenuType/MenuType";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function RestaurantPage() {
   return (
@@ -25,9 +26,11 @@ function App() {
   return (
     <>
       <Header />
-      <Router onUpdate={() => (window.scrollTop = 0)}>
-        <Route path="/" exact component={MainPage} />
-        <Route path="/restaurant" component={RestaurantPage} />
+      <Router>
+        <ScrollToTop>
+          <Route path="/" exact component={MainPage} />
+          <Route path="/restaurant" component={RestaurantPage} />
+        </ScrollToTop>
       </Router>
       <Footer />
     </>

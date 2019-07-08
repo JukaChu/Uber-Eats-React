@@ -4,11 +4,12 @@ import "./Header.css";
 
 import { Cabinet } from "../Cabinet/Cabinet";
 import { Location } from "../Location/Location";
+import { Container } from "../Container/Container";
 
 export function Header() {
   return (
-    <header id="header" className="header">
-      <div className="header__wrapper">
+    <header className="header">
+      <Container>
         <div className="header__fixed">
           <a href="javascript:void(0)">
             <img src={logo} alt="" />
@@ -16,7 +17,7 @@ export function Header() {
           <Location />
           <Cabinet />
         </div>
-      </div>
+      </Container>
     </header>
   );
 }

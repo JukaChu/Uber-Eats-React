@@ -3,10 +3,15 @@ import { RestaurantCard } from "../RestaurantCard/RestaurantCard";
 import "./RestaurantsList.css";
 import { RestaurantsData } from "../data/RestaurantsData";
 
-export function RestaurantsList() {
+export function RestaurantsList(props) {
   return (
     <div className="restaurants-list">
-      {RestaurantsData.map((restaurant, i) => {
+      {RestaurantsData.filter(
+        restaurant =>
+          restaurant.title.toLowerCase().includes(props.searchValue) ||
+          (restaurant.tags && props.filterTags(restaurant)) ||
+          (restaurant.categories && props.filterCategories(restaurant))
+      ).map((restaurant, i) => {
         return (
           <RestaurantCard
             key={i}

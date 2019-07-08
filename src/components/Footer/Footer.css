@@ -1,9 +1,3 @@
-.footer__wrapper {
-  margin: 0 auto;
-  max-width: 962px;
-  min-height: 116px;
-}
-
 .footer {
   min-height: 116px;
   background: var(--black);
