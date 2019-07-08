@@ -5,15 +5,15 @@ import { data } from "../data/data";
 export function Information() {
   return (
     <>
-      <p className="information-restaurant-name">{data.title}</p>
-      <div className="information-delivery">
-        <p className="information-delivery-currency">
+      <p className="information__restaurant-name">{data.title}</p>
+      <div className="information__delivery">
+        <p className="information__delivery__currency">
           {data.priceBucket} •{" "}
           {data.categories.map(category => {
             return `${category.name}`;
           })}
         </p>
-        <div className="information-delivery-time">
+        <div className="information__delivery__time">
           <p>
             {data.etaRange.min} - {data.etaRange.max} Min
           </p>
