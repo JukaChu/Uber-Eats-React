@@ -4,21 +4,10 @@ import "./components/MainPage/MainPage.css";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { MainPage } from "./components/MainPage/MainPage";
-import { RestaurantTeaser } from "./components/RestaurantTeaser/RestaurantTeaser";
-import { RestaurantMenu } from "./components/RestaurantMenu/RestaurantMenu";
 import "./components/MenuType/MenuType.css";
-import { MenuType } from "./components/MenuType/MenuType";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import {RestaurantPage} from "./components/RestaurantPage/RestaurantPage";
 
-function RestaurantPage() {
-  return (
-      <main>
-        <RestaurantTeaser />
-        <RestaurantMenu />
-        <MenuType />
-      </main>
-  );
-}
 
 function App() {
   return (
