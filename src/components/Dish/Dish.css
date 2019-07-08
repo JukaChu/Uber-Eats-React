@@ -1,6 +1,6 @@
 .dish {
   width: 470px;
-  height: 160px;
+  max-height: 170px;
   border: var(--border);
   border-radius: 4px;
   margin-bottom: 22px;
@@ -19,8 +19,7 @@
 }
 
 .dish__description {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 16px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -33,8 +32,7 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--main-font-color);
-  margin-top: 16px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .dish__description-additive {
@@ -45,7 +43,13 @@
   color: var(--second-font-color);
   margin-top: 4px;
   margin-bottom: 0;
+  height: 42px;
+  width: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+
 
 .dish__description-price {
   font-family: var(--main-font);
@@ -53,6 +57,7 @@
   font-size: 15px;
   line-height: 21px;
   color: var(--main-font-color);
+  margin: 0;
 }
 
 .dish__photo-preview {
