@@ -26,7 +26,7 @@
   justify-content: space-between;
 }
 
-.dish__description-name {
+.dish__name {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
@@ -35,7 +35,7 @@
   margin: 0;
 }
 
-.dish__description-additive {
+.dish__additive {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 13px;
@@ -51,7 +51,7 @@
 
 
 
-.dish__description-price {
+.dish__price {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 15px;

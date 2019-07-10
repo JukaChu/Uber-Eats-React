@@ -9,11 +9,11 @@ export function Dish(props) {
     <div className="dish">
       <a href="javascript:void(0)" className="dish__basket">
         <div className="dish__description">
-          <p className="dish__description-name">{title}</p>
+          <p className="dish__name">{title}</p>
           {itemDescription && (
-            <p className="dish__description-additive">{itemDescription}</p>
+            <p className="dish__additive">{itemDescription}</p>
           )}
-          <p className="dish__description-price">{priceFixed}₴</p>
+          <p className="dish__price">{priceFixed}₴</p>
         </div>
         {imageUrl && (
           <img src={imageUrl} alt={title} className="dish__photo-preview" />
