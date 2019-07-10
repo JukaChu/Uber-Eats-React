@@ -3,8 +3,7 @@ import "./Dish.css";
 
 export function Dish(props) {
   const { title, itemDescription, price, imageUrl } = props.dish;
-  let prices = price / 100;
-  let priceFixed = prices.toFixed(2);
+  let priceFixed = (price/100).toFixed(2);
 
   return (
     <div className="dish">
