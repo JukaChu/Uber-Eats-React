@@ -17,7 +17,7 @@ export function Dish(props) {
           <p className="dish__description-price">{priceFixed}₴</p>
         </div>
         {imageUrl ? (
-          <img src={imageUrl} alt="" className="dish__photo-preview" />
+          <img src={imageUrl} alt={title} className="dish__photo-preview" />
         ) : null}
       </a>
     </div>

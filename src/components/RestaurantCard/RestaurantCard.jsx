@@ -6,7 +6,7 @@ export function RestaurantCard(props) {
   return (
     <div className="restaurant-card">
       <Link to="/restaurant" className="restaurant-card__link">
-        <img src={props.url} className="restaurant-card__photo" alt="" />
+        <img src={props.url} className="restaurant-card__photo" alt={props.name} />
         <div className="restaurant-card__preview">
           <p className="restaurant-card__name">{props.name}</p>
           <p className="restaurant-card__price">
