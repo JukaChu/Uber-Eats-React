@@ -1,4 +1,4 @@
-.information__delivery {
+.preview-card__delivery {
   display: flex;
   justify-content: space-between;
   width: 319px;
@@ -8,7 +8,7 @@
   margin-bottom: 38px;
 }
 
-.information__restaurant-name {
+.preview-card__restaurant-name {
   font-family: var(--main-font);
   color: var(--main-font-color);
   font-weight: normal;
@@ -19,7 +19,7 @@
   margin-left: 35px;
 }
 
-.information__delivery__currency {
+.preview-card__delivery__currency {
   font-family: var(--main-font);
   color: var(--second-font-color);
   font-weight: normal;
@@ -27,7 +27,7 @@
   line-height: 16px;
 }
 
-.information__delivery__time {
+.preview-card__delivery__time {
   font-family: var(--main-font);
   color: var(--white);
   font-weight: normal;

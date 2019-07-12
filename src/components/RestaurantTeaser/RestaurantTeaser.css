@@ -1,6 +1,5 @@
 .restaurant-teaser {
   height: 364px;
-  /*background: url("https://uber-eats-mates.herokuapp.com/images/48f30dc6-245f-4257-9b6f-8fc00c510fd9.jpg");*/
   background-size: cover;
   margin-top: 72px;
 }
@@ -29,7 +28,7 @@
   justify-content: flex-start;
 }
 
-.restaurant-teaser__information {
+.restaurant-teaser__preview-card {
   max-width: 389px;
   height: 204px;
   background: var(--white);

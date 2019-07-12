@@ -1,17 +1,17 @@
 import React from "react";
-import "./Information.css";
+import "./PreviewCard.css";
 import { data } from "../data/data";
 
-export function Information() {
+export function PreviewCard() {
   return (
     <>
-      <p className="information__restaurant-name">{data.title}</p>
-      <div className="information__delivery">
-        <p className="information__delivery__currency">
+      <p className="preview-card__restaurant-name">{data.title}</p>
+      <div className="preview-card__delivery">
+        <p className="preview-card__delivery__currency">
           {data.priceBucket} •{" "}
           {data.categories.map(({name}) => name)}
         </p>
-        <div className="information__delivery__time">
+        <div className="preview-card__delivery__time">
           <p>
             {data.etaRange.min} - {data.etaRange.max} Min
           </p>

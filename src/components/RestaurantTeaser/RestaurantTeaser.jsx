@@ -1,8 +1,8 @@
 import React from "react";
 import "./RestaurantTeaser.css";
 import { data } from "../data/data";
-import { Information } from "../Information/Information";
-import "../Information/Information.css";
+import { PreviewCard } from "../PreviewCard/PreviewCard";
+import "../PreviewCard/PreviewCard.css";
 
 export function RestaurantTeaser() {
   return (
@@ -15,8 +15,8 @@ export function RestaurantTeaser() {
         />
       </div>
       <div className="restaurant-teaser__wrapper">
-        <div className="restaurant-teaser__information">
-          <Information />
+        <div className="restaurant-teaser__preview-card">
+          <PreviewCard />
         </div>
       </div>
     </div>
