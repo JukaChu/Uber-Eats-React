@@ -50,11 +50,10 @@ export class MainPage extends React.Component {
   };
 
   render() {
-    console.log("add+" + this.state.searchValue);
 
     return (
       <>
-        <main className="main-page">
+        <div className="main-page">
           <Container>
             <SearchPanel onInputChange={this.addSearchInput} />
             <h1 className="main-page__title">Kyiv restaurants</h1>
@@ -64,7 +63,7 @@ export class MainPage extends React.Component {
               filterCategories={this.filterCategories}
             />
           </Container>
-        </main>
+        </div>
       </>
     );
   }
