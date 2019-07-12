@@ -14,8 +14,8 @@ export function MenuType() {
                 {section.title}
               </h4>
               <div className="menu-type__dish">
-                {section.itemUuids.map((item, i) => {
-                  return <Dish key={i} dish={data.items[item]} />;
+                {section.itemUuids.map((item) => {
+                  return <Dish key={item} dish={data.items[item]} />;
                 })}
               </div>
             </div>

@@ -4,17 +4,20 @@ import "./RestaurantsList.css";
 import { RestaurantsData } from "../data/RestaurantsData";
 
 export function RestaurantsList(props) {
-  return (
-    <div className="restaurants-list">
-      {RestaurantsData.filter(
-        restaurant =>
+  let filtred = RestaurantsData.filter(
+      restaurant =>
           restaurant.title.toLowerCase().includes(props.searchValue) ||
           (restaurant.tags && props.filterTags(restaurant)) ||
           (restaurant.categories && props.filterCategories(restaurant))
-      ).map((restaurant, i) => {
+  );
+
+
+  return (
+    <div className="restaurants-list">
+      {filtred.length > 0 ? filtred.map((restaurant) => {
         return (
           <RestaurantCard
-            key={i}
+            key={restaurant.uuid}
             url={restaurant.imageUrl}
             name={restaurant.title}
             price={restaurant.priceBucket}
@@ -24,7 +27,7 @@ export function RestaurantsList(props) {
             deliveryTime={`${restaurant.etaRange.min}-${restaurant.etaRange.max} Min`}
           />
         );
-      })}
+      }) : <h1>No restaurants</h1>}
     </div>
   );
 }
