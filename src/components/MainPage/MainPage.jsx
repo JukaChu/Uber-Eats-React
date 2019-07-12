@@ -57,7 +57,7 @@ export class MainPage extends React.Component {
         <main className="main-page">
           <Container>
             <SearchPanel onInputChange={this.addSearchInput} />
-            <p className="main-page__title">Kyiv restaurants</p>
+            <h1 className="main-page__title">Kyiv restaurants</h1>
             <RestaurantsList
               searchValue={this.state.searchValue}
               filterTags={this.filterTags}
