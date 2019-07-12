@@ -9,9 +9,7 @@ export function Information() {
       <div className="information__delivery">
         <p className="information__delivery__currency">
           {data.priceBucket} •{" "}
-          {data.categories.map(category => {
-            return `${category.name}`;
-          })}
+          {data.categories.map(({name}) => name)}
         </p>
         <div className="information__delivery__time">
           <p>
