@@ -11,7 +11,7 @@ export function RestaurantTeaser() {
         <img
           src={data.largeImageUrl}
           className="restaurant-teaser__background-image"
-          alt=""
+          alt={data.title}
         />
       </div>
       <div className="restaurant-teaser__wrapper">
