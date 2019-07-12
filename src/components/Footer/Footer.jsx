@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="footer">
       <Container>
         <div className="footer__fixed">
-          <a href="javascript:void(0)">
+          <a href="/">
             <img src={logo} alt="" />
           </a>
         </div>
