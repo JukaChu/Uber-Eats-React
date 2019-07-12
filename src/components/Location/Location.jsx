@@ -1,9 +1,9 @@
 import React from "react";
-// import './location.css';
+import './Location.css';
 
 export function Location() {
   return (
-    <div className="header__location">
+    <div className="location">
       <button className="location__time">ASAP</button>
       <span className="location__to">to</span>
       <label className="location__place">
