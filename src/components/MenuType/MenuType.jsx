@@ -10,9 +10,9 @@ export function MenuType() {
         {data.sections.map(section => {
           return (
             <div className="menu-type__section-menu">
-              <p className="menu-type__name" id={section.title}>
+              <h4 className="menu-type__name" id={section.title}>
                 {section.title}
-              </p>
+              </h4>
               <div className="menu-type__dish">
                 {section.itemUuids.map((item, i) => {
                   return <Dish key={i} dish={data.items[item]} />;
