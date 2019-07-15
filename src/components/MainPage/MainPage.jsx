@@ -3,9 +3,8 @@ import "./MainPage.css";
 import { RestaurantsList } from "../RestaurantsList/RestaurantsList";
 import { SearchPanel } from "../SearchPanel/SearchPanel";
 import { Container } from "../Container/Container";
-import { RestaurantsData } from "../data/RestaurantsData";
 
-export class MainPage extends React.Component {
+export class MainPage extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

@@ -2,8 +2,11 @@ import React from "react";
 import { data } from "../data/data";
 import "./MenuType.css";
 import { Dish } from "../Dish/Dish";
+import ConsumerBasket from "../ContextBasket/ContextBasket";
 
 export function MenuType() {
+
+
   return (
     <div className="menu-type">
       <div className="menu-type__wrapper">
@@ -15,7 +18,22 @@ export function MenuType() {
               </h4>
               <div className="menu-type__dish">
                 {section.itemUuids.map((item) => {
-                  return <Dish key={item} dish={data.items[item]} />;
+                    let itemInfo = {
+                        key: data.items[item].title,
+                        amount: 0,
+                        name: data.items[item].title,
+                    };
+                  return (
+                      <ConsumerBasket>
+                          {/*// узнать как передать сюда стейт или как сверху добавить context, попробовать через родителя пропсом*/}
+                          {context => {
+
+                              return (
+                      <Dish key={item} context={context}
+                                dish={data.items[item]}
+                               itemIn ={itemInfo}
+                              />)}}
+                      </ConsumerBasket>)
                 })}
               </div>
             </div>

@@ -4,12 +4,12 @@ import {RestaurantMenu} from "../RestaurantMenu/RestaurantMenu";
 import {MenuType} from "../MenuType/MenuType";
 
 
-export function RestaurantPage() {
+export function RestaurantPage(props) {
     return (
         <main>
             <RestaurantTeaser />
             <RestaurantMenu />
-            <MenuType />
+            <MenuType/>
         </main>
     );
 }

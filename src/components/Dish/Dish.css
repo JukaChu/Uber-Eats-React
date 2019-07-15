@@ -4,6 +4,7 @@
   border: var(--border);
   border-radius: 4px;
   margin-bottom: 22px;
+  position: relative;
 }
 
 .dish__basket {
@@ -64,4 +65,18 @@
   width: 170px;
   height: 160px;
   flex-shrink: 0;
+}
+
+.dish__amount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: green;
+}
+
+.dish--in-basket {
+  border: var(--border-in-basket);
 }

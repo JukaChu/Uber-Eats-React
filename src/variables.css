@@ -10,4 +10,5 @@ html {
   --hover-card-color: rgba(117, 117, 117, 0.04);
   --active-color: #327430;
   --brand-color: #57ad56;
+  --border-in-basket: 1px solid var(--brand-color);
 }
