@@ -40,6 +40,14 @@
   outline: none;
 }
 
+.cabinet__basket {
+  border: 1px solid transparent;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
 .cabinet__basket-image {
   cursor: pointer;
 }

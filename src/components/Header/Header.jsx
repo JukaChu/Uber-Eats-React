@@ -20,7 +20,7 @@ export function Header(props) {
                             <img src={logo} alt=""/>
                         </a>
                         <Location/>
-                        <Cabinet/>
+                        <Cabinet context={context}/>
                     </div>
                 </Container>
             </header>
