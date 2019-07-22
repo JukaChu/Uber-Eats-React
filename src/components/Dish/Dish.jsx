@@ -23,7 +23,7 @@ export class Dish extends React.PureComponent {
             key: uuid,
             amount: newAmount,
             name: this.state.dishName,
-            price: totalPrice,
+            price: this.state.price,
         };
 
         function basketHasOwnProperty(item) {
@@ -40,6 +40,7 @@ export class Dish extends React.PureComponent {
         } else {
             this.props.context.push(itemInfo);
         }
+        localStorage.setItem('basket', JSON.stringify(this.props.context))
     }
 
 

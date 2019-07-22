@@ -9,8 +9,11 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import {RestaurantPage} from "./components/RestaurantPage/RestaurantPage";
 import {ProviderBasket} from "./components/ContextBasket/ContextBasket";
 
+
+
 class App extends React.Component{
-    basket = ['WORKS'];
+
+    basket = [];
   render()  {
     return (
         <>

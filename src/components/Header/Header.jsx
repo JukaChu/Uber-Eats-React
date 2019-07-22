@@ -7,6 +7,8 @@ import {Location} from "../Location/Location";
 import {Container} from "../Container/Container";
 import ConsumerBasket from '../ContextBasket/ContextBasket';
 
+
+
 export function Header(props) {
     return (
         <ConsumerBasket>
