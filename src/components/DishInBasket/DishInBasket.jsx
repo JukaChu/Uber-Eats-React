@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './DishInBasket.css'
 
 export class DishInBasket extends React.Component {
 
@@ -50,8 +50,8 @@ export class DishInBasket extends React.Component {
         const allOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
         return (
-            <div className='basket__order-item' key={this.props.key} id={this.props.id}>
-                <select name="" id="basket__select-amount" onChange={(e) => this.onOptionClick(e)}>
+            <div className='dish-in-basket__order-item' key={this.props.key} id={this.props.id}>
+                <select name="" id="dish-in-basket__select-amount" onChange={(e) => this.onOptionClick(e)}>
                     <option value={0}>Delete</option>
                     {allOptions.map((option)=>{
                         if(option === this.state.amount){
@@ -60,8 +60,8 @@ export class DishInBasket extends React.Component {
                         }
                     })}
                 </select>
-                <h2>{this.props.name}</h2>
-                <h3>{this.state.price*this.state.amount}</h3>
+                <h2 className='dish-in-basket__name'>{this.props.name}</h2>
+                <h3 className='dish-in-basket__amount'>{this.state.price*this.state.amount} грн</h3>
             </div>
         );
     }

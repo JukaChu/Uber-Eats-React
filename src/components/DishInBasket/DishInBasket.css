@@ -1,0 +1,19 @@
+.dish-in-basket__order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#dish-in-basket__select-amount {
+    height: 30px;
+}
+
+.dish-in-basket__name {
+    margin: 0;
+}

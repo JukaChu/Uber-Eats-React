@@ -40,8 +40,8 @@ export class Basket extends React.PureComponent {
         <div className="basket">
             <div className="basket__top">
                 <img src={basket} alt="basket"/>
-                <h3 className="basket__total-amount">Ваш заказ({})</h3>
-                <div className="basket__close" onClick={this.props.closeModal}>h</div>
+                <h3 className="basket__total-amount">Ваш заказ</h3>
+                <div className="basket__close" onClick={this.props.closeModal}>Close</div>
             </div>
             <div className="basket__order-list">{localContext.map((item)=>{
                 let uuid;
@@ -74,9 +74,9 @@ export class Basket extends React.PureComponent {
                 )
             })}</div>
             <div className="basket__payment">
-                <div className="basket__order-amount">{this.state.totalAmount}</div>
+                <div className="basket__order-amount">{this.state.totalAmount} ед.</div>
                 <p className="basket__next-step">Далее: оплата</p>
-                <p className="basket__order-summary-price">{this.state.totalPrice}грн.</p>
+                <p className="basket__order-summary-price">{this.state.totalPrice} грн.</p>
             </div>
         </div>
     )

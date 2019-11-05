@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "prettier": "1.18.2",
+    "react-loading-skeleton": "^1.2.0",
     "surge": "^0.21.3"
   },
   "husky": {

@@ -1,36 +1,34 @@
-import React from "react";
-import { data } from "../data/data";
+import React, {useState} from "react";
 import "./MenuType.css";
 import { Dish } from "../Dish/Dish";
 import ConsumerBasket from "../ContextBasket/ContextBasket";
 
-export function MenuType() {
-
+export function MenuType(props) {
+    const [restaurant, setRestaurant] = useState(props.restaurant);
 
   return (
     <div className="menu-type">
       <div className="menu-type__wrapper">
-        {data.sections.map(section => {
+        {restaurant.sections.map(section => {
           return (
             <div className="menu-type__section-menu">
               <h4 className="menu-type__name" id={section.title}>
                 {section.title}
               </h4>
               <div className="menu-type__dish">
-                {section.itemUuids.map((item) => {
+                {section.itemUuids.map((item, key) => {
                     let itemInfo = {
-                        key: data.items[item].title,
+                        key: restaurant.items[item].title,
                         amount: 0,
-                        name: data.items[item].title,
+                        name: restaurant.items[item].title,
                     };
                   return (
                       <ConsumerBasket>
-                          {/*// узнать как передать сюда стейт или как сверху добавить context, попробовать через родителя пропсом*/}
                           {context => {
 
                               return (
                       <Dish key={item} context={context}
-                                dish={data.items[item]}
+                                dish={restaurant.items[item]}
                                itemIn ={itemInfo}
                               />)}}
                       </ConsumerBasket>)

@@ -57,6 +57,7 @@ export class MainPage extends React.PureComponent {
             <SearchPanel onInputChange={this.addSearchInput} />
             <h1 className="main-page__title">Kyiv restaurants</h1>
             <RestaurantsList
+
               searchValue={this.state.searchValue}
               filterTags={this.filterTags}
               filterCategories={this.filterCategories}

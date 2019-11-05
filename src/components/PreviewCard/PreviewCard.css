@@ -6,6 +6,7 @@
   align-items: center;
   height: 32px;
   margin-bottom: 38px;
+  flex-shrink: 1;
 }
 
 .preview-card__restaurant-name {
@@ -40,4 +41,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }

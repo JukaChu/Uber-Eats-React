@@ -50,10 +50,10 @@ export class Dish extends React.PureComponent {
         const {title, itemDescription, price, imageUrl, uuid} = this.props.dish;
         let amount = this.state.amount;
         let priceFixed = (price / 100).toFixed(2);
-        console.log('pered render');
-        console.log(this.props.context);
-        console.log(amount);
-        console.log(this.props.context);
+        // console.log('pered render');
+        // console.log(this.props.context);
+        // console.log(amount);
+        // console.log(this.props.context);
 
         return (
 

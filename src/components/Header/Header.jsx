@@ -18,10 +18,8 @@ export function Header(props) {
                 <Container>
                     <div className="header__fixed">
                         <a href="/">
-                            <p>{context}</p>
                             <img src={logo} alt=""/>
                         </a>
-                        <Location/>
                         <Cabinet context={context}/>
                     </div>
                 </Container>

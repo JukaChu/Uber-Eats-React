@@ -2,16 +2,11 @@
   padding-top: 60px;
 }
 
-.menu-type__section-menu #Yantik {
-  padding-top: 330px;
-  margin-top: -200px;
-}
 .menu-type {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   overflow: hidden;
-  margin-top: -120px;
 }
 
 .menu-type__wrapper {

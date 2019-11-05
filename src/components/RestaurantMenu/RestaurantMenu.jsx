@@ -1,14 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import "./RestaurantMenu.css";
 import {data} from "../data/data";
 import {TypeFood} from "../TypeFood/TypeFood";
 
-export function RestaurantMenu() {
+export function RestaurantMenu(props) {
+    const [restaurant, setRestaurant] = useState(props.restaurant);
+
     return (
         <nav className="restaurant-menu">
             <div className="restaurant-menu__wrapper">
                 <ul className="restaurant-menu__type">
-                    {data.sections.map((section, i) => {
+                    {restaurant.sections.map((section, i) => {
                         return (
                             <TypeFood
                                 spy={true}

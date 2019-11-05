@@ -12,8 +12,22 @@ import {ProviderBasket} from "./components/ContextBasket/ContextBasket";
 
 
 class App extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            uuid:[]
+        };
+    }
 
     basket = [];
+
+    renderRestaurantPage = props => {
+        return (
+            <RestaurantPage
+                    match = {props.match}
+            />
+        );
+    };
   render()  {
     return (
         <>
@@ -22,7 +36,7 @@ class App extends React.Component{
                 <Router>
                     <ScrollToTop>
                         <Route path="/" exact component={MainPage}/>
-                        <Route path="/restaurant" component={RestaurantPage}/>
+                        <Route path='/restaurant/:id' component={this.renderRestaurantPage}/>
                     </ScrollToTop>
                 </Router>
                 <Footer/>
