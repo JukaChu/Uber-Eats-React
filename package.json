@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "active-menu-link": "^1.1.6",
-    "create-react-app": "^3.0.1",
+    "create-react-app": "^5.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-modal": "^3.9.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.7.12",
     "simple-scrollspy": "^2.0.1"
   },
@@ -41,7 +41,7 @@
   "devDependencies": {
     "prettier": "1.18.2",
     "react-loading-skeleton": "^1.2.0",
-    "surge": "^0.21.3"
+    "surge": "^0.24.6"
   },
   "husky": {
     "hooks": {
